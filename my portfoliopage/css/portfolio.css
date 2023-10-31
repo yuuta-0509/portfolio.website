@@ -1,0 +1,54 @@
+#all{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+/*ヘッダーのcssここから*/
+header{
+    width: 100%;
+    height: 6vh;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin-top: 1.5vh;
+    transition: 1s;
+}
+li:hover{
+    margin-top: 3vh;;
+    transition: 1s;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    transition: 1s;
+}
+a:hover{
+    color: lightseagreen;
+    transition: 1s;
+}
+.now{
+    color:lightseagreen;
+}
+.title{
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 5vh;
+    padding-left: 5vw;
+}
+
+.img_div{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-around;
+}
+.images{
+    width: 30vw;
+}
+.sub_title{
+    font-size: 15px;
+    color: aliceblue;
+}

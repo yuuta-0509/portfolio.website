@@ -1,0 +1,35 @@
+#all{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+/*ヘッダーのcssここから*/
+header{
+    width: 100%;
+    height: 6vh;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin-top: 1.5vh;
+    transition: 1s;
+}
+li:hover{
+    margin-top: 3vh;;
+    transition: 1s;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    transition: 1s;
+}
+a:hover{
+    color: lightseagreen;
+    transition: 1s;
+}
+.now{
+    color:lightseagreen;
+}
